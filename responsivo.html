@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #container {
+            border: 3px solid black;
+        }
+        h1 {
+            color: blueviolet;
+        }
+        /* tablet  */
+        @media screen and (min-width: 768px) {
+            h1 {
+                text-align: center;
+            }
+        }
+        /* dektop */
+        @media screen and (min-width: 920px) {
+            h1 {
+                text-align: center;
+                color: black;
+                background-color: blanchedalmond;
+            }
+        }
+        /* full screen */
+        @media screen and (min-width: 1220px) {
+            main {
+              margin-right: 50%;
+              margin-left: auto;
+              max-width: 1100%;
+              width: 100%;  
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Meu site </h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, beatae. Facere ducimus sunt magnam in ratione. Unde, similique laudantium maiores, dicta nesciunt nobis facilis sequi sed, placeat earum vero voluptate!</p>
+    </div>
+</body>
+</html>
